@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'https://wonderful-meerkat-de194d.netlify.app',
+      target: 'https://mern-chat-app-backend-rlpb.onrender.com',
       changeOrigin: true,
     })
   );
